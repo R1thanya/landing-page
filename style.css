@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  box-sizing: border-box;
+  box-shadow: #444;
+}
+
+.img {
+  background-image: url("Untitled design.png");
+  background-size: cover;
+}
+
+select {
+  width: 100%;
+  padding: 13px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #d5d3d3;
+  color: #111;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 32px 16px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.slogan {
+  font-style: italic;
+  color: #ccc;
+  margin-top: 8px;
+}
+
+nav ul {
+  margin-top: 16px;
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 16px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00aaff;
+}
+
+section {
+  padding: 32px;
+  max-width: 800px;
+  margin: 32px auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #888787; 
+}
+
+h2 {
+  margin-bottom: 16px;
+  color: #003366;
+}
+
+.services-list {
+  list-style-type: disc;
+  padding-left: 24px;
+  margin-top: 16px;
+}
+
+.services-list li {
+  margin-bottom: 16px;
+}
+
+form {
+  display: block;
+  margin-top: 16px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+
+}
+input[type="text"] { border: 1px solid gray; }
+ 
+button {
+  padding: 13px 24px;
+  background-color: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+  background-color: #eee;
+  margin-top: 32px;
+}
